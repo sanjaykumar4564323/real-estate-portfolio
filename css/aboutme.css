@@ -1,0 +1,181 @@
+* {
+  border-radius: 0 !important;
+  cursor: cell;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #e0ce26;
+  color: #0e151c;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #0e151c;
+}
+.wave-container {
+  position: relative;
+  background: #394255;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 7rem 1.25rem 2.5rem 1.25rem;
+}
+
+.font {
+  font-family: "Bebas Neue", cursive;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e0ce26;
+}
+
+.row-content {
+  padding-top: 100px;
+}
+
+.black {
+  background-color: #0e151c;
+  color: white;
+  height: 300px;
+}
+
+.color {
+  color: #e0ce26;
+}
+
+.size {
+  font-size: 80px;
+}
+
+.border {
+  border: 4px solid white;
+}
+
+.svg {
+  margin: auto;
+  width: 1000px;
+  height: auto;
+  padding: 10px;
+}
+
+.ssvg {
+  padding-right: 50px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #394255;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 50px;
+}
+
+.title-col {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #0e151c;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.big {
+  font-size: 100px;
+}
+
+.list-group-item {
+  background-color: #394255;
+  color: white;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+.foot {
+  background-color: #0e151c;
+  color: white;
+}
+
+.blue {
+  background-color: #394255;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  padding-top: 150px;
+}
+
+#mapid {
+  height: 180px;
+}
+
+.tab-content {
+  color: wheat;
+  padding-top: 150px;
+}
+
+.imgimg {
+  height: 500px;
+  width: auto;
+}
+
+.colors {
+  color: white;
+}
+
+.blackk {
+  color: black;
+}
+
+.coldwell {
+  height: 70px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}

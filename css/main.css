@@ -1,0 +1,275 @@
+* {
+  border-radius: 0 !important;
+  cursor: cell;
+}
+
+::selection {
+  background-color: #e0ce26;
+  color: #0e151c;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #0e151c;
+  scroll-behavior: smooth;
+}
+.wave-container {
+  position: relative;
+  background: #394255;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 7rem 1.25rem 2.5rem 1.25rem;
+}
+
+.font {
+  font-family: "Bebas Neue", cursive;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e0ce26;
+}
+
+.row-content {
+  padding-top: 100px;
+}
+
+.black {
+  background-color: #0e151c;
+  color: white;
+}
+
+.color {
+  color: #e0ce26;
+}
+
+.size {
+  font-size: 80px;
+}
+
+.border {
+  border: 4px solid white;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.svg {
+  margin: auto;
+  width: 1000px;
+  height: auto;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.logo-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #394255;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 50px;
+}
+
+.title-col {
+  text-align: center;
+}
+
+.foot {
+  background-color: #0e151c;
+  color: white;
+}
+
+.blue {
+  background-color: #394255;
+}
+
+.white {
+  background-color: #0e151c;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+.imgimg {
+  height: 700px;
+  width: auto;
+}
+
+.row-footer {
+  padding-bottom: 50px;
+}
+
+.colors {
+  color: white;
+}
+
+@keyframes yourAnimation {
+  0% {
+    color: #394255;
+  }
+  9% {
+    color: yellow;
+  }
+  23% {
+    color: blue;
+  }
+  37% {
+    color: green;
+  }
+  54% {
+    color: white;
+  }
+  68% {
+    color: gray;
+  }
+  76% {
+    color: orange;
+  }
+  96% {
+    transform: rotate(xx);
+    color: white;
+  }
+}
+
+.elementToAnimate {
+  animation: yourAnimation 20s infinite 0s linear;
+}
+
+.coldwell {
+  height: 70px;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+a {
+  color: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #0e151c;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
